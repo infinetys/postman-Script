@@ -1,0 +1,16 @@
+{
+  "name": "jenkins",
+  "version": "1.0.0",
+  "description": "Project for Auto Script Postman",
+  "directories": {
+    "test": "test",
+  },
+  "main": "index.js",
+  "scripts": {
+    "api-test-now": "newman run Tello.postman_collection.json -e production.postman_environment.json -r htmlextra,html"
+  },
+  "author": "",
+  "dependencies": {
+    "newman": "^4.5.7"
+  }
+}
