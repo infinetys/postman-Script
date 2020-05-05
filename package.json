@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Project for Auto Script Postman",
   "directories": {
-    "test": "test",
+    "test": "test"
   },
   "main": "index.js",
   "scripts": {
